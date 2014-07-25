@@ -1,0 +1,177 @@
+body{
+  margin:0;
+  padding:0;
+  border:1px solid black;
+  background-image:url("../images/light_grey.png");
+
+}
+
+header {
+  background-image:url("../images/bg.png");
+  min-height:200px;
+  transition:background-image 2s ease-in, min-height 2s;
+  -moz-transition:background-image 2s ease-in, min-height 2s;
+  -webkit-transition:
+}
+
+
+
+header:hover{
+  background-image:url("../images/family-01.png");
+  height:400px;
+}
+
+h1 {
+  color: white;
+  text-align:center;
+  font-family: 'Lobster Two', cursive;
+  padding-top:60px;
+  font-size:72px;
+}
+
+p{
+  text-align:center;
+  font-size:30px;
+  color:#2b3a42;
+  padding-top:25px;
+
+}
+.word{
+  color:#f16053;
+  font-style:italic;
+
+
+}
+ .circles{
+  margin-top:75px;
+  text-align:center;
+  min-height:400px;
+  padding-top:50px;
+  font-size:25px;
+  font-family:arial;
+}
+
+.circle1{
+  display:inline-block;
+  width:150px;
+  height:150px;
+  border-radius:100%;
+  background-color:#f16053;
+  margin:30px 30px 30px;
+  transition:width 1s ease, height 1s ease, background-color 1 ease, margin 1s ease;
+}
+
+.circle1 span{
+  color:white;
+  position:relative;
+  display:block;
+  top:50%;
+
+}
+
+.circle1:hover{
+  border-radius:10%;
+  background-image: url("../images/glenn-01.png");
+  width:175px;
+  height:175px;
+  margin:30px 10px 30px;
+  color:hidden;
+}
+.circle2{
+  display:inline-block;
+  width:150px;
+  height:150px;
+  border-radius:100%;
+  background-color:#f16053;
+  margin:30px 30px 30px;
+  transition:background-color 2s ease-in;
+
+}
+
+.circle2:hover{
+  background-image:url("../images/polkadots-01.png");
+  width:150px;
+  height:150px;
+}
+
+.circle2 span{
+  color:white;
+  position:relative;
+  display:block;
+  top:50%;
+
+}
+.circle3{
+  display:inline-block;
+  width:150px;
+  height:150px;
+  border-radius:100%;
+  background-color:#f16053;
+  margin:30px 30px 30px;
+  transition:width 2s ease, height 2s ease,;
+  
+}
+
+.circle3 span{
+  color:white;
+  position:relative;
+  display:block;
+  top:50%;
+
+}
+
+.circle3:hover{
+  width:200px;
+  height:200px;
+}
+
+.circle4{
+  display:inline-block;
+  width:150px;
+  height:150px;
+  border-radius:100%;
+  background-color:#f16053;
+  margin:30px 30px 30px;
+}
+
+.circle4 span{
+  color:white;
+  position:relative;
+  display:block;
+  top:50%;
+  transition:color 2s ease, font-siz 2s ease;
+            background-color 2s ease;
+
+}
+
+.circle4 span:hover{
+  color:#2b3a42;
+  font-size:30px;
+
+
+}
+
+.circle5{
+  display:inline-block;
+  width:150px;
+  height:150px;
+  border-radius:100%;
+  background-color:#f16053;
+  margin:30px 30px 30px;
+  transition:border 2s ease;
+  -webkit-transition:border 2s ease;
+  -moz-transition:border 2s ease;
+
+}
+
+.circle5 span{
+  color:white;
+  position:relative;
+  display:block;
+  top:50%;
+
+}
+
+.circle5:hover{
+    border:20px solid #f68d3f;
+}
